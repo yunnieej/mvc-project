@@ -44,6 +44,7 @@ public class FrontControllerServletV1 extends HttpServlet {
          */
 
         String requestURI = request.getRequestURI();
+//        System.out.println("경로 : " + requestURI);
 
         ControllerV1 controller = controllerMap.get(requestURI);
 
